@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div>
+    <div class="header-component">
       <header-component />
     </div>
     <div>

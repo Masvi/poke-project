@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import api from "../servives/api";
+import api from "@/servives/api";
 
 export default {
   name: "PokerIndex",
@@ -52,21 +52,15 @@ export default {
       }
     };
   },
+  created() {
+    this.fetchPokemon();
+  },
   methods: {
     fetchPokemon() {
       api.get("generation").then(response => {
-        console.log("--------------");
-        console.log(response);
         this.options = response.data.results;
       });
     }
-  },
-  created() {
-    this.fetchPokemon();
   }
 };
 </script>
-
-
-<style scoped>
-</style>

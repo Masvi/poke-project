@@ -1,17 +1,21 @@
 <template>
   <div id="app">
-    <poke-index />
+    <div>
+      <header-component></header-component>
+    </div>
+    <div>
+      <router-view />
+    </div>
   </div>
 </template>
 
 <script>
-import PokeIndex from "./components/PokeIndex";
-
+import HeaderComponent from "./components/Header/HeaderComponent";
 export default {
-  name: "App",
   components: {
-    PokeIndex
-  }
+    HeaderComponent
+  },
+  name: "App"
 };
 </script>
 <style lang="scss">

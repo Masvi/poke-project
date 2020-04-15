@@ -34,7 +34,7 @@
 import api from "../servives/api";
 
 export default {
-  name: "PokerIndex",
+  name: "",
   components: {},
   props: {
     msg: String

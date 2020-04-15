@@ -55,6 +55,7 @@ export default {
   methods: {
     fetchPokemon() {
       api.get("generation").then(response => {
+        console.log("--------------");
         console.log(response);
         this.options = response.data.results;
       });

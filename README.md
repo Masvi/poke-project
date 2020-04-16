@@ -6,9 +6,9 @@ bem como as espécies de Pokémon em cada uma das gerações.
 
 ## Ferramentas: 
 
-  Vue.js
-  Axios
-  Bootstrap
+  - Vue.js
+  - Axios
+  - Bootstrap
  
 ## Para usar
 

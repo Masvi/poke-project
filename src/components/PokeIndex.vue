@@ -13,12 +13,14 @@
             <div class="col-md-4" v-for="opt in options" :key="opt.url">
               <div class="card mb-4 shadow-sm">
                 <div class="card-body">
-                  <router-link
-                    :to="{ path: '/generation/'+ opt.name, params: {params: opt } }"
-                  >more..</router-link>
                   <h4>{{opt.name}}</h4>
                   <div class="d-flex justify-content-between align-items-center">
                     <small class="text-muted">{{opt.url}}</small>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <router-link :to="{ path: '/generation/'+ opt.name, params: {params: opt } }">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Visualizar</button>
+                    </router-link>
                   </div>
                 </div>
               </div>
@@ -57,8 +59,8 @@ export default {
   },
   methods: {
     fetchPokemon() {
-      api.get("generation").then(response => {
-        this.options = response.data.results;
+      api.get("generation").then(({ data }) => {
+        this.options = data.results;
       });
     }
   }

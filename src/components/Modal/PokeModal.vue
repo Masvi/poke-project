@@ -1,6 +1,6 @@
 <template>
   <transition name="fade">
-    <div class="vue-modal" v-if="value">
+    <div class="poke-modal" v-if="value">
       <transition appear name="drawer">
         <div
           class="modal inmodal"
@@ -135,26 +135,26 @@ export default {
 </style>
 
 <style scoped>
-.vue-modal {
+.poke-modal {
   color: #676a6c;
   position: relative;
   z-index: 100;
 }
-.vue-modal .inmodal .modal-title {
+.poke-modal .inmodal .modal-title {
   font-size: 26px;
 }
-.vue-modal .inmodal .modal-header {
+.poke-modal .inmodal .modal-header {
   padding: 15px;
   text-align: center;
 }
-.vue-modal .modal-header .close {
+.poke-modal .modal-header .close {
   margin-top: 8px;
   margin-right: 14px;
   position: absolute;
   top: 15px;
   right: 15px;
 }
-.vue-modal .inmodal .modal-body {
+.poke-modal .inmodal .modal-body {
   background: #f8fafb;
   border-radius: 3px;
 }

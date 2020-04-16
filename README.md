@@ -1,24 +1,21 @@
-# poke-project
+## Sobre o projeto:
 
-## Project setup
-```
-yarn install
-```
+Este projeto visa a disponibilização de dados através da API: https://pokeapi.co/  
+A aplicação exibe as gerações dos games Pokémon. O projeto exibe as gerações do jogo, 
+bem como as espécies de Pokémon em cada uma das gerações.
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Ferramentas: 
 
-### Compiles and minifies for production
-```
-yarn build
-```
+  - Vue.js
+  - Axios
+  - Bootstrap
+ 
+## Para usar
 
-### Lints and fixes files
-```
-yarn lint
-```
+  Para rodar o projeto deve-se executar o comando **yarn** no terminal (na raiz do projeto) para que o gerenciador 
+  mapeie as dependências utilizadas.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Contato
+
+Jean Masvi - [Github](https://github.com/masvi) - **jeanmasvi@gmail.com**

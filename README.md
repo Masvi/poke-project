@@ -4,6 +4,9 @@ Este projeto visa a disponibilização de dados através da API: https://pokeapi
 A aplicação exibe as gerações dos games Pokémon. O projeto exibe as gerações do jogo, 
 bem como as espécies de Pokémon em cada uma das gerações.
 
+<kbd>testes</kbd>  
+
+
 ## Ferramentas: 
 
   - Vue.js

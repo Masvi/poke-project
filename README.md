@@ -8,7 +8,7 @@ bem como as espécies de Pokémon em cada uma das gerações.
 <kbd>btn title</kbd>
 
 
-`#C6E48B`
+`#249A3C`
 
 
 ## Ferramentas: 

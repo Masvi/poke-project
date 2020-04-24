@@ -5,12 +5,6 @@ A aplicação exibe as gerações dos games Pokémon. O projeto exibe as geraç�
 bem como as espécies de Pokémon em cada uma das gerações.
 
 
-<kbd>btn title</kbd>
-
-
-`#249A3C`
-
-
 ## Ferramentas: 
 
   - Vue.js

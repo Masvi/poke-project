@@ -2,14 +2,14 @@
     <poke-modal
         :value="true"
         :show-cancel-btn="false"
-        :title="this.pokemon.name"
+        :title="pokemon.name"
         @input="$emit('close')"
     >
         <template slot="body">
             <div class="row">
                 <div
                     v-if="pokemon.sprites.front_shiny"
-                    class="form-group col-md-4"
+                    class="form-group col-md-4 box"
                 >
                     <img
                         :src="pokemon.sprites.front_shiny"
@@ -85,4 +85,14 @@ export default {
 </script>
 
 <style>
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+}
 </style>
